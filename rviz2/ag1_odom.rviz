@@ -8,8 +8,6 @@ Panels:
         - /Status1
         - /RobotModel1
         - /RobotModel1/Description Topic1
-        - /RobotModel1/Links1
-        - /RobotModel1/Links1/left_wheel1
         - /Odometry1
       Splitter Ratio: 0.5
     Tree Height: 549
@@ -79,6 +77,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         caster_left_wheel:
           Alpha: 1
           Show Axes: false
@@ -89,9 +92,29 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        gps_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        imu_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         left_wheel:
-          Alpha: 0.5
-          Show Axes: true
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        oak-d-base-frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        oak_link:
+          Alpha: 1
+          Show Axes: false
           Show Trail: false
           Value: true
         right_wheel:
@@ -192,7 +215,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 4.7218918800354
+      Distance: 2.1928656101226807
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -207,10 +230,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.17979742586612701
+      Pitch: 0.7347968220710754
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.7935662269592285
+      Yaw: 5.0185322761535645
     Saved: ~
 Window Geometry:
   Displays:
